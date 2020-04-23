@@ -9,7 +9,7 @@
 
 
 <main>
-    <app-square 
+    <app-square class="basic-grid"
         *ngFor="let val of squares; let i = index" 
         [value]="val"
         (click)="makeMove(i)"> 

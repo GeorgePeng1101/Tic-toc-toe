@@ -1,7 +1,7 @@
 main {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 0px;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
   
 app-square {
